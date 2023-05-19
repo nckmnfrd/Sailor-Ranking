@@ -34,9 +34,9 @@ def main():
 def create_db_connection():
     try:
         connection = mysql.connector.connect(
-            host = '192.168.1.153',
-            username = 'Nicholass-MBP',
-            password = 'Rubbish019!',
+            host = '',
+            username = '',
+            password = '',
             database = 'sailor_ranking'
         )
         # check if the connection was successful
